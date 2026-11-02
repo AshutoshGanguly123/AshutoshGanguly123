@@ -2,15 +2,15 @@
 
 AI researcher @ **MBZUAI** (Abu Dhabi).
 
-**Focus:** autonomous long-horizon agents; efficient distributed LLM systems (throughput, tok/s, memory, RAM, streaming).
+**Focus:** autonomous long-horizon agents; efficient LLM systems (throughput, tok/s, memory, streaming).
 
-## Flagship repositories
+## Public repositories
 
-| Repo | Decisive question / headline |
-|------|------------------------------|
-| [autonomous-long-running-agents](https://github.com/AshutoshGanguly123/autonomous-long-running-agents) | Can a ReAct tree agent write Git-backed papers under a 32k context ceiling? Amlodipine MPO: **48 papers**, best score **0.9045** |
-| [autonomous-agent-memory](https://github.com/AshutoshGanguly123/autonomous-agent-memory) | SQL agent **69.2% EX** vs paper 58.1/62.6%; Mem-α diagnosis + A-Mem protocols |
-| [graph-ordering-rl](https://github.com/AshutoshGanguly123/graph-ordering-rl) | SFT+RLOO beats classical orderings (**~5–7%**, **1000/1000 vs BFS**); compute-matched teacher control **in flight** |
-| [llm-compression-systems](https://github.com/AshutoshGanguly123/llm-compression-systems) | When does compression help e2e? **1.51×** TT path; **~115s host decode** bottleneck + measurement harness |
+| Repo | What you’ll find |
+|------|------------------|
+| [autonomous-long-running-agents](https://github.com/AshutoshGanguly123/autonomous-long-running-agents) | ReAct tree agent writing Git-backed papers under a 32k ceiling. Amlodipine MPO campaign: 48 papers, best single score 0.9045 (not the official GuacaMol aggregate). |
+| [autonomous-agent-memory](https://github.com/AshutoshGanguly123/autonomous-agent-memory) | SQL agent **69.2% EX** on BiomedSQL-style eval with **Qwen3.8-27B** (paper BMSQL 62.6% used **GPT-o3-mini** — not matched). Mem-α diagnosis + A-Mem protocols. |
+| [graph-ordering-rl](https://github.com/AshutoshGanguly123/graph-ordering-rl) | SFT+RLOO ordering costs vs teacher / SFT / spectral / DFS / BFS (absolute costs; learned policies are best-of-16). Compute-matched control in progress. |
+| [llm-compression-systems](https://github.com/AshutoshGanguly123/llm-compression-systems) | **1.51×** compression ratio on a TT DFloat11 path; e2e still bottlenecked by ~115 s host decode. Mantissa-bit cliff study. |
 
-Each repo: claims, metrics, limitations, `reference_research_papers/`.
+Each repo has claims, metrics, limitations, and link-only paper indexes.
