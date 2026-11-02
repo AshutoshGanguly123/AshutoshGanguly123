@@ -6,10 +6,11 @@ AI researcher @ **MBZUAI** (Abu Dhabi).
 
 ## Flagship repositories
 
-| Repo | Headline |
-|------|----------|
-| [autonomous-agent-memory](https://github.com/AshutoshGanguly123/autonomous-agent-memory) | **SQL agent 69.2% EX** on BiomedSQL-style 546Q (vs paper Gemini 58.1% / BMSQL 62.6%); plus A-Mem / Mem-α LoCoMo protocols |
-| [graph-ordering-rl](https://github.com/AshutoshGanguly123/graph-ordering-rl) | SFT+RLOO ordering: **~5–7% vs spectral/BFS/DFS**, **1000/1000** wins vs BFS; +0.5% paired vs strong learned teacher |
-| [llm-compression-systems](https://github.com/AshutoshGanguly123/llm-compression-systems) | DFloat11/TT path **1.51×** with bit-exact compute; **~115s host decode** called out as the systems bottleneck; FP16 mantissa cliff mapped |
+| Repo | Decisive question / headline |
+|------|------------------------------|
+| [autonomous-long-running-agents](https://github.com/AshutoshGanguly123/autonomous-long-running-agents) | Can a ReAct tree agent write Git-backed papers under a 32k context ceiling? Amlodipine MPO: **48 papers**, best score **0.9045** |
+| [autonomous-agent-memory](https://github.com/AshutoshGanguly123/autonomous-agent-memory) | SQL agent **69.2% EX** vs paper 58.1/62.6%; Mem-α diagnosis + A-Mem protocols |
+| [graph-ordering-rl](https://github.com/AshutoshGanguly123/graph-ordering-rl) | SFT+RLOO beats classical orderings (**~5–7%**, **1000/1000 vs BFS**); compute-matched teacher control **in flight** |
+| [llm-compression-systems](https://github.com/AshutoshGanguly123/llm-compression-systems) | When does compression help e2e? **1.51×** TT path; **~115s host decode** bottleneck + measurement harness |
 
-Each repo leads with claims, numbers, reproduction notes, limitations, and a `reference_research_papers/` shelf.
+Each repo: claims, metrics, limitations, `reference_research_papers/`.
